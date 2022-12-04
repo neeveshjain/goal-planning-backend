@@ -95,9 +95,9 @@ DATABASES = {
         'ENGINE' : 'django.db.backends.postgresql',
         'NAME' : 'goalplanning',
         'USER' : 'postgres',
-        'PASSWORD' : 'Hiro1234Xiong',
+        'PASSWORD' : 'postgres',
         'HOST' : '127.0.0.1',
-        'PORT' : '5432',
+        'PORT' : '5433',
    }
 }
 
