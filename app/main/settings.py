@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'knox',
     'activity',
-    
+    'users', 
 ]
 
 MIDDLEWARE = [
@@ -130,6 +130,8 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=480),
 }
+
+AUTH_USER_MODEL = 'users.UserAccount'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
