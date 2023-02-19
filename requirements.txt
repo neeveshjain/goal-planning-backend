@@ -1,10 +1,10 @@
 asgiref==3.6.0
 astroid==2.3.3
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.13.2
 Click==7.0
 colorama==0.4.3
-cryptography==2.8
+cryptography==39.0.1
 dj-database-url==0.5.0
 Django==3.0.6
 django-cors-headers==3.2.0
@@ -19,8 +19,8 @@ Jinja2==2.11.3
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-Pillow==7.0.0
-pipenv==2018.11.26
+Pillow==9.3.0
+pipenv==2022.1.8
 psycopg2==2.9.5
 psycopg2-binary==2.8.6
 pycparser==2.19
@@ -31,6 +31,6 @@ six==1.13.0
 sqlparse==0.3.0
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
-Werkzeug==1.0.0
+Werkzeug==2.2.3
 whitenoise==5.0.1
 wrapt==1.11.2
