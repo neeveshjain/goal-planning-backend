@@ -30,9 +30,9 @@ class UserCreateSerializer(serializers.ModelSerializer):
         return data
 
     def create(self, validated_data):
-        """"
+        """
         Create user via serializer approach
-        """"
+        """
         user = User.objects.create_user(
             first_name=validated_data['first_name'],
             last_name=validated_data['last_name'],
